@@ -1,4 +1,4 @@
-package com.mathsolver.backend;
+package com.mathsolver.api;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

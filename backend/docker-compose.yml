@@ -1,0 +1,15 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: mathsolver-postgres
+    environment:
+      POSTGRES_USER: mathsolver
+      POSTGRES_PASSWORD: mathsolver
+      POSTGRES_DB: mathsolver
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:
