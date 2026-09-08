@@ -1,5 +1,6 @@
-package com.mathsolver.api.domain.model;
+package com.mathsolver.api.domain.user;
 
+import com.mathsolver.api.domain.exercise.Exercise;
 import jakarta.persistence.*;
 import lombok.*;
 import org.hibernate.annotations.CreationTimestamp;

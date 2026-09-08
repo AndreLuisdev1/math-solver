@@ -1,6 +1,6 @@
 package com.mathsolver.api.domain.repository;
 
-import com.mathsolver.api.domain.model.User;
+import com.mathsolver.api.domain.user.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

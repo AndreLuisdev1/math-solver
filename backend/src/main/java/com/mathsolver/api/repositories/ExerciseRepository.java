@@ -1,6 +1,6 @@
 package com.mathsolver.api.domain.repository;
 
-import com.mathsolver.api.domain.model.Exercise;
+import com.mathsolver.api.domain.exercise.Exercise;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
